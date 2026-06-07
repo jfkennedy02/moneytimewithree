@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights | Money Time With Ree</title>
+    <meta name="description"
+        content="High-signal insights on modern wealth creation, crypto, and digital business building by Ree.">
+    <meta name="keywords"
+        content="Money Time With Ree, modern wealth, digital business, crypto, entrepreneurship, insights, blog">
+    <meta name="author" content="Ree">
+    <link rel="canonical" href="https://moneytimewithree.com/blog.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://moneytimewithree.com/blog.html">
+    <meta property="og:title" content="Insights | Money Time With Ree">
+    <meta property="og:description"
+        content="High-signal insights on modern wealth creation, crypto, and digital business building by Ree.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Insights | Money Time With Ree">
+    <meta property="twitter:description"
+        content="High-signal insights on modern wealth creation, crypto, and digital business building by Ree.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="blog-page">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">MTWR</div>
+            <div class="preloader-bar">
+                <div class="preloader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">MTWR</span>
+                <span class="logo-text">Money Time With Ree</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#tools">Tools</a>
+                <a href="index.html#learn">Learn</a>
+                <a href="index.html#guides">Guides</a>
+                <a href="blog.html" style="color: var(--text-primary);">Insights</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-actions">
+                <a href="blog.html" class="btn-ghost">Free Resources</a>
+                <button class="btn-primary">Join Inner Circle</button>
+            </div>
+            <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Backdrop -->
+    <div class="mobile-backdrop" id="mobile-backdrop"></div>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-drawer-header">
+            <a href="index.html" class="mobile-drawer-logo">
+                <span class="logo-mark">MTWR</span>
+                <span style="font-family:var(--font-display);font-weight:600;font-size:0.95rem;color:var(--text-primary);">Money Time With Ree</span>
+            </a>
+            <button class="mobile-drawer-close" id="mobile-close" aria-label="Close menu">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <nav class="mobile-links">
+            <a href="index.html#tools"><i class="ri-tools-fill"></i> Tools</a>
+            <a href="index.html#learn"><i class="ri-book-open-fill"></i> Learn</a>
+            <a href="index.html#guides"><i class="ri-map-pin-2-fill"></i> Guides</a>
+            <a href="index.html#calculators"><i class="ri-calculator-fill"></i> Calculators</a>
+            <div class="mobile-links-divider"></div>
+            <a href="blog.html" class="active"><i class="ri-article-fill"></i> Insights</a>
+            <a href="about.html"><i class="ri-user-fill"></i> About Ree</a>
+        </nav>
+        <div class="mobile-drawer-footer">
+            <button class="btn-primary">Join Inner Circle <i class="ri-arrow-right-line"></i></button>
+            <div class="mobile-social-row">
+                <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Blog Hero -->
+        <header class="blog-hero">
+            <div class="blog-hero-bg-glow"></div>
+            <div class="blog-hero-content">
+                <div class="section-tag"><span class="pulse-dot"></span> The Alpha Letter</div>
+                <h1 class="blog-hero-title">High-Signal.<br><span class="accent-text">Zero Noise.</span></h1>
+                <p class="blog-hero-subtitle">
+                    Strategic breakdowns, market analysis, and the unfiltered truth about building digital empires —
+                    from Ree's desk to your inbox.
+                </p>
+                <form class="inline-form" onsubmit="handleSubscribe(event)">
+                    <input type="email" id="nl-email" placeholder="Enter your email for weekly insights"
+                        class="premium-input" required>
+                    <button type="submit" class="btn-primary">Subscribe Free <i
+                            class="ri-arrow-right-line"></i></button>
+                </form>
+                <div class="blog-hero-trust">
+                    <span><i class="ri-group-fill"></i> 50,000+ subscribers</span>
+                    <span>·</span>
+                    <span><i class="ri-shield-check-fill"></i> Free for a limited Time</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Blog Filter Bar -->
+        <div class="blog-filter-bar">
+            <div class="container">
+                <div class="blog-filter-inner">
+                    <button class="filter-btn active" onclick="filterPosts(this, 'all')">All</button>
+                    <button class="filter-btn" onclick="filterPosts(this, 'strategy')">Strategy</button>
+                    <button class="filter-btn" onclick="filterPosts(this, 'crypto')">Crypto</button>
+                    <button class="filter-btn" onclick="filterPosts(this, 'mindset')">Mindset</button>
+                    <button class="filter-btn" onclick="filterPosts(this, 'tactics')">Tactics</button>
+                    <button class="filter-btn" onclick="filterPosts(this, 'hustle')">Hustle</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Grid -->
+        <section class="blog-list-section">
+            <!-- Featured Post -->
+            <article class="blog-card featured-blog-card" data-category="strategy">
+                <div class="blog-image-wrap">
+                    <a href="blog-post.html" class="blog-image-link">
+                        <div class="blog-image">
+                            <div class="img-placeholder" style="background: linear-gradient(145deg, #111a0a, #0a0a0a);">
+                                <i class="ri-git-branch-line category-icon"></i>
+                            </div>
+                            <div class="category-tag">Strategy</div>
+                            <div class="video-overlay-badge">
+                                <i class="ri-play-fill"></i> Video Available
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <img src="ree.jpg" alt="Ree"
+                            style="width:22px;height:22px;border-radius:50%;object-fit:cover;flex-shrink:0;aspect-ratio:1/1;">
+                        <span>By Ree</span>
+                        <span>·</span>
+                        <time datetime="2026-05-14">May 14, 2026</time>
+                        <span>·</span>
+                        <span class="read-time">8 min read</span>
+                    </div>
+                    <a href="blog-post.html" class="blog-title-link">
+                        <h2>The Architecture of a $10M Digital Ecosystem</h2>
+                    </a>
+                    <p class="excerpt">How to transition from a single revenue stream to a robust, interconnected web of
+                        digital assets that print cash in any market condition. The Flywheel Effect explained.</p>
+                    <div class="blog-actions">
+                        <a href="blog-post.html" class="read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                            rel="noopener noreferrer" class="watch-video-btn">
+                            <i class="ri-youtube-fill"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <div class="blog-grid">
+                <article class="blog-card" data-category="crypto">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #0a0e1a, #050508);">
+                                    <i class="ri-btc-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Crypto</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-05-02">May 02, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>Surviving the Bear: Asymmetric Bets</h3>
+                        </a>
+                        <p class="excerpt">The exact framework I use to identify and allocate capital during market
+                            drawdowns without losing sleep.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="mindset">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #1a0a1a, #050505);">
+                                    <i class="ri-brain-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Mindset</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-04-18">April 18, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">4 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>The Attention Economy Premium</h3>
+                        </a>
+                        <p class="excerpt">Why your personal brand is the only asset that scales infinitely without
+                            marginal cost in 2026.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tactics">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #1a0f0a, #050505);">
+                                    <i class="ri-compass-3-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Tactics</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-04-05">April 05, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>Optimizing Your Funnel for High-Ticket</h3>
+                        </a>
+                        <p class="excerpt">Stop selling $50 courses. Here is the blueprint to closing $5k+ retainers via
+                            DM, step by step.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="hustle">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #0a1a0f, #050505);">
+                                    <i class="ri-rocket-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Hustle</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-03-20">March 20, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">7 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>5 High-Income Skills to Learn in 90 Days</h3>
+                        </a>
+                        <p class="excerpt">The fastest path from zero to your first $5K/month online — validated by real
+                            results in 2026.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="strategy">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #111a0a, #0a0a0a);">
+                                    <i class="ri-global-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Strategy</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-03-08">March 08, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>How Nigerians Are Getting Paid on Upwork</h3>
+                        </a>
+                        <p class="excerpt">The exact method that smart freelancers are using to bypass barriers and land
+                            international clients.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="crypto">
+                    <div class="blog-image-wrap">
+                        <a href="blog-post.html" class="blog-image-link">
+                            <div class="blog-image">
+                                <div class="img-placeholder"
+                                    style="background: linear-gradient(145deg, #0a0e1a, #050508);">
+                                    <i class="ri-coins-line category-icon"></i>
+                                </div>
+                                <div class="category-tag">Crypto</div>
+                                <div class="video-overlay-badge">
+                                    <i class="ri-play-fill"></i> Video Available
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2026-02-14">Feb 14, 2026</time>
+                            <span>·</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                        <a href="blog-post.html" class="blog-title-link">
+                            <h3>Business Models That Will Dominate 2026</h3>
+                        </a>
+                        <p class="excerpt">The three digital business models quietly generating life-changing income for
+                            those paying attention.</p>
+                        <div class="blog-actions">
+                            <a href="blog-post.html" class="read-more">Read Article <i
+                                    class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                                rel="noopener noreferrer" class="watch-video-btn">
+                                <i class="ri-youtube-fill"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="load-more-container" style="margin-top:3rem;">
+                <button class="btn-ghost" style="padding:1rem 2rem;font-size:1rem;">Load More Insights <i
+                        class="ri-arrow-down-line"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">MONEY TIME <span>WITH REE</span></div>
+                    <p>Decoding the modern game of wealth — for ambitious people everywhere.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Twitter/X"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                            rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4>Ecosystem</h4>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank"
+                            rel="noopener noreferrer">YouTube</a>
+                        <a href="blog.html">The Alpha Letter</a>
+                        <a href="#">Academy</a>
+                        <a href="#">The Syndicate</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Tools</h4>
+                        <a href="index.html#calculators">Calculators</a>
+                        <a href="index.html#tools">Investment Tracker</a>
+                        <a href="index.html#tools">Budget Planner</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="about.html">About Ree</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Disclaimer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Money Time With Ree. All rights reserved.</p>
+                <p class="disclaimer">Content is for educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Transition Overlay -->
+    <div class="transition-overlay" id="transition-overlay">
+        <div class="transition-swipe"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function filterPosts(btn, category) {
+            if (btn.classList.contains('active')) return;
+
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const cards = document.querySelectorAll('.blog-card');
+
+            // Premium dynamic animation using GSAP
+            gsap.to(cards, {
+                opacity: 0,
+                scale: 0.95,
+                y: 10,
+                duration: 0.2,
+                ease: "power2.out",
+                stagger: 0.015,
+                onComplete: () => {
+                    cards.forEach(card => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = '';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    const visibleCards = Array.from(cards).filter(c => c.style.display !== 'none');
+
+                    // Reset styling parameters before animating in
+                    gsap.set(visibleCards, { opacity: 0, scale: 0.95, y: 15 });
+
+                    // Stagger and fade in the visible selection
+                    gsap.to(visibleCards, {
+                        opacity: 1,
+                        scale: 1,
+                        y: 0,
+                        duration: 0.35,
+                        stagger: 0.03,
+                        ease: "power2.out",
+                        onComplete: () => {
+                            // Sync scroll size changes to Lenis smooth scrolling immediately
+                            if (window.lenis) {
+                                window.lenis.resize();
+                            }
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Time With Ree | Your Financial Edge</title>
+    <meta name="description" content="Premium financial education, wealth tools, and actionable guides to help you build real money in the modern economy.">
+    <meta name="keywords" content="financial education, wealth building, crypto, investing, money, digital skills, Money Time With Ree">
+    <meta name="author" content="Ree">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://moneytimewithree.com/">
+    <meta property="og:title" content="Money Time With Ree | Your Financial Edge">
+    <meta property="og:description" content="Premium financial education, wealth tools, and actionable guides.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">MTWR</div>
+            <div class="preloader-bar"><div class="preloader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">MTWR</span>
+                <span class="logo-text">Money Time With Ree</span>
+            </a>
+            <div class="nav-links">
+                <a href="#tools">Tools</a>
+                <a href="#learn">Learn</a>
+                <a href="#guides">Guides</a>
+                <a href="blog.html">Insights</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-actions">
+                <a href="blog.html" class="btn-ghost">Free Resources</a>
+                <button class="btn-primary" id="nav-cta">Join Inner Circle</button>
+            </div>
+            <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Backdrop -->
+    <div class="mobile-backdrop" id="mobile-backdrop"></div>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+        <!-- Drawer Header -->
+        <div class="mobile-drawer-header">
+            <a href="index.html" class="mobile-drawer-logo">
+                <span class="logo-mark">MTWR</span>
+                <span style="font-family:var(--font-display);font-weight:600;font-size:0.95rem;color:var(--text-primary);">Money Time With Ree</span>
+            </a>
+            <button class="mobile-drawer-close" id="mobile-close" aria-label="Close menu">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+
+        <!-- Nav Links -->
+        <nav class="mobile-links">
+            <a href="#tools"><i class="ri-tools-fill"></i> Tools</a>
+            <a href="#learn"><i class="ri-book-open-fill"></i> Learn</a>
+            <a href="#guides"><i class="ri-map-pin-2-fill"></i> Guides</a>
+            <a href="#calculators"><i class="ri-calculator-fill"></i> Calculators</a>
+            <div class="mobile-links-divider"></div>
+            <a href="blog.html"><i class="ri-article-fill"></i> Insights</a>
+            <a href="about.html"><i class="ri-user-fill"></i> About Ree</a>
+        </nav>
+
+        <!-- Drawer Footer -->
+        <div class="mobile-drawer-footer">
+            <button class="btn-primary">Join Inner Circle <i class="ri-arrow-right-line"></i></button>
+            <div class="mobile-social-row">
+                <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-grid-pattern"></div>
+                <div class="glow-blob blob-1"></div>
+                <div class="glow-blob blob-2"></div>
+            </div>
+            <div class="container hero-layout">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Trusted by 50,000+ Wealth Builders</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Your Unfair<br>
+                        <span class="accent-text">Financial Edge</span><br>
+                        Starts Here.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Premium financial education, wealth tools, and insider playbooks from Ree — built for people who treat money like a serious game.
+                    </p>
+                    <div class="hero-cta-group">
+                        <button class="btn-primary btn-large" id="hero-cta-primary">
+                            Get Free Wealth Guides <i class="ri-arrow-right-line"></i>
+                        </button>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" class="btn-play">
+                            <div class="play-icon"><i class="ri-play-fill"></i></div>
+                            Watch the Trailer
+                        </a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-item"><i class="ri-shield-check-fill"></i> No fluff</div>
+                        <div class="trust-sep">·</div>
+                        <div class="trust-item"><i class="ri-lock-2-fill"></i> Always free</div>
+                        <div class="trust-sep">·</div>
+                        <div class="trust-item"><i class="ri-bar-chart-2-fill"></i> Real strategies</div>
+                    </div>
+                </div>
+                <div class="hero-dashboard">
+                    <div class="dashboard-card main-card">
+                        <div class="card-label"><i class="ri-line-chart-line"></i> Portfolio Growth</div>
+                        <div class="card-value">+247.3%</div>
+                        <div class="card-sub">Since Jan 2024</div>
+                        <div class="mini-chart">
+                            <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <polyline points="0,50 30,40 60,42 90,30 120,20 150,15 180,8 200,5" stroke="#d4ff33" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="0,50 30,40 60,42 90,30 120,20 150,15 180,8 200,5 200,60 0,60" fill="rgba(212,255,51,0.07)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="dashboard-row">
+                        <div class="dashboard-card mini-card">
+                            <div class="mini-icon green"><i class="ri-wallet-3-fill"></i></div>
+                            <div class="mini-info">
+                                <div class="mini-label">Monthly Income</div>
+                                <div class="mini-val">$12,400</div>
+                            </div>
+                        </div>
+                        <div class="dashboard-card mini-card">
+                            <div class="mini-icon yellow"><i class="ri-coin-fill"></i></div>
+                            <div class="mini-info">
+                                <div class="mini-label">Crypto ROI</div>
+                                <div class="mini-val">+88%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-card tip-card">
+                        <div class="tip-icon"><i class="ri-lightbulb-flash-fill"></i></div>
+                        <div class="tip-text">
+                            <strong>Today's Alpha</strong>
+                            <span>3 ways to stack passive income before Q4</span>
+                        </div>
+                        <i class="ri-arrow-right-s-line tip-arrow"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Ticker -->
+            <div class="ticker-wrapper">
+                <div class="ticker-track">
+                    <span>CRYPTO & WEB3</span><span class="sep">✦</span>
+                    <span>DIGITAL SKILLS</span><span class="sep">✦</span>
+                    <span>BUSINESS GROWTH</span><span class="sep">✦</span>
+                    <span>FREELANCING</span><span class="sep">✦</span>
+                    <span>REAL ESTATE</span><span class="sep">✦</span>
+                    <span>FINANCIAL FREEDOM</span><span class="sep">✦</span>
+                    <span>INVESTING</span><span class="sep">✦</span>
+                    <span>SIDE HUSTLES</span><span class="sep">✦</span>
+                    <!-- Duplicate -->
+                    <span>CRYPTO & WEB3</span><span class="sep">✦</span>
+                    <span>DIGITAL SKILLS</span><span class="sep">✦</span>
+                    <span>BUSINESS GROWTH</span><span class="sep">✦</span>
+                    <span>FREELANCING</span><span class="sep">✦</span>
+                    <span>REAL ESTATE</span><span class="sep">✦</span>
+                    <span>FINANCIAL FREEDOM</span><span class="sep">✦</span>
+                    <span>INVESTING</span><span class="sep">✦</span>
+                    <span>SIDE HUSTLES</span><span class="sep">✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TRUST STATS ===== -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">50K+</div>
+                        <div class="stat-desc">Wealth Builders in the Community</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">2.4M+</div>
+                        <div class="stat-desc">Minds Reached Globally</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">120+</div>
+                        <div class="stat-desc">In-Depth Wealth Guides</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">$0</div>
+                        <div class="stat-desc">To Start Learning Today</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FINANCIAL TOOLS DASHBOARD ===== -->
+        <section class="tools-section" id="tools">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">Financial Tools</div>
+                    <h2>Your Money Dashboard</h2>
+                    <p>Free tools to track, plan, and accelerate your wealth journey.</p>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-card featured-tool">
+                        <div class="tool-header">
+                            <div class="tool-icon-wrap accent"><i class="ri-calculator-line"></i></div>
+                            <span class="tool-badge">Popular</span>
+                        </div>
+                        <h3>Wealth Calculator</h3>
+                        <p>See exactly when you'll hit your financial goals based on your income, savings rate, and investment returns.</p>
+                        <a href="#calculators" class="tool-cta">Use Calculator <i class="ri-arrow-right-line"></i></a>
+                        <div class="tool-illustration">
+                            <svg viewBox="0 0 120 80" fill="none">
+                                <rect x="5" y="40" width="15" height="35" rx="3" fill="#d4ff33" opacity="0.3"/>
+                                <rect x="27" y="28" width="15" height="47" rx="3" fill="#d4ff33" opacity="0.5"/>
+                                <rect x="49" y="18" width="15" height="57" rx="3" fill="#d4ff33" opacity="0.7"/>
+                                <rect x="71" y="8" width="15" height="67" rx="3" fill="#d4ff33" opacity="0.9"/>
+                                <rect x="93" y="2" width="15" height="73" rx="3" fill="#d4ff33"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon-wrap blue"><i class="ri-exchange-dollar-line"></i></div>
+                        <h3>Investment Tracker</h3>
+                        <p>Monitor all your investments across crypto, stocks, and real estate in one clean dashboard.</p>
+                        <a href="#" class="tool-cta">Track Now <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon-wrap purple"><i class="ri-percent-line"></i></div>
+                        <h3>Compound Interest</h3>
+                        <p>Visualize the power of compounding on your savings and investments over time.</p>
+                        <a href="#calculators" class="tool-cta">Calculate <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon-wrap orange"><i class="ri-pie-chart-2-line"></i></div>
+                        <h3>Budget Planner</h3>
+                        <p>Build a money-smart budget using the 50/30/20 rule adapted for wealth builders.</p>
+                        <a href="#" class="tool-cta">Plan Budget <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon-wrap green"><i class="ri-arrow-up-circle-line"></i></div>
+                        <h3>Side Hustle Income</h3>
+                        <p>Calculate how much you can earn from top-performing side hustles based on your hours.</p>
+                        <a href="#" class="tool-cta">Estimate <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== LEARN / GROW / PROTECT ===== -->
+        <section class="learn-section" id="learn">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">Knowledge Hub</div>
+                    <h2>Learn. Grow. Protect.</h2>
+                    <p>Everything you need at every stage of your wealth journey.</p>
+                </div>
+                <div class="lgp-grid">
+                    <div class="lgp-card learn">
+                        <div class="lgp-icon"><i class="ri-book-open-line"></i></div>
+                        <div class="lgp-label">LEARN</div>
+                        <h3>Build Your Financial Foundation</h3>
+                        <p>Master the fundamentals — budgeting, saving, investing, and understanding how money actually works in the modern economy.</p>
+                        <ul class="lgp-topics">
+                            <li><i class="ri-check-line"></i> Beginner investing guides</li>
+                            <li><i class="ri-check-line"></i> Crypto explained simply</li>
+                            <li><i class="ri-check-line"></i> Understanding market cycles</li>
+                            <li><i class="ri-check-line"></i> Debt elimination frameworks</li>
+                        </ul>
+                        <a href="blog.html" class="lgp-link">Explore Guides <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="lgp-card grow">
+                        <div class="lgp-icon"><i class="ri-line-chart-line"></i></div>
+                        <div class="lgp-label">GROW</div>
+                        <h3>Scale Your Income & Wealth</h3>
+                        <p>Go beyond a salary. Build multiple income streams, grow your digital business, and learn how to put your money to work harder.</p>
+                        <ul class="lgp-topics">
+                            <li><i class="ri-check-line"></i> Side hustle blueprints</li>
+                            <li><i class="ri-check-line"></i> Digital business models</li>
+                            <li><i class="ri-check-line"></i> Passive income systems</li>
+                            <li><i class="ri-check-line"></i> High-income skills guide</li>
+                        </ul>
+                        <a href="blog.html" class="lgp-link">Start Growing <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="lgp-card protect">
+                        <div class="lgp-icon"><i class="ri-shield-check-line"></i></div>
+                        <div class="lgp-label">PROTECT</div>
+                        <h3>Safeguard What You Build</h3>
+                        <p>Understand the risks, manage downturns, and build a financial fortress that keeps your wealth safe through any economic climate.</p>
+                        <ul class="lgp-topics">
+                            <li><i class="ri-check-line"></i> Risk management basics</li>
+                            <li><i class="ri-check-line"></i> Portfolio diversification</li>
+                            <li><i class="ri-check-line"></i> Crypto security best practices</li>
+                            <li><i class="ri-check-line"></i> Tax-smart wealth strategies</li>
+                        </ul>
+                        <a href="blog.html" class="lgp-link">Learn to Protect <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FEATURED WEALTH GUIDES ===== -->
+        <section class="guides-section" id="guides">
+            <div class="container">
+                <div class="section-header split">
+                    <div>
+                        <div class="section-tag">Featured Guides</div>
+                        <h2>Wealth Playbooks</h2>
+                    </div>
+                    <a href="blog.html" class="btn-ghost">View All <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="guides-grid">
+                    <a href="blog-post.html" class="guide-card featured-guide">
+                        <div class="guide-category">Strategy</div>
+                        <div class="guide-body">
+                            <h3>The Architecture of a $10M Digital Ecosystem</h3>
+                            <p>How to build a multi-faceted digital business where every component feeds the next — the Flywheel Effect explained.</p>
+                        </div>
+                        <div class="guide-footer">
+                            <div class="guide-meta">
+                                <img src="ree.jpg" alt="Ree" class="guide-avatar">
+                                <span>By Ree</span>
+                                <span>·</span>
+                                <span>8 min read</span>
+                            </div>
+                            <div class="guide-arrow"><i class="ri-arrow-right-up-line"></i></div>
+                        </div>
+                        <div class="guide-number">01</div>
+                    </a>
+                    <a href="blog-post.html" class="guide-card">
+                        <div class="guide-category">Crypto</div>
+                        <div class="guide-body">
+                            <h3>How to Build a Crypto Portfolio That Survives Any Market</h3>
+                            <p>The diversification framework that protects upside while limiting downside exposure.</p>
+                        </div>
+                        <div class="guide-footer">
+                            <div class="guide-meta">
+                                <img src="ree.jpg" alt="Ree" class="guide-avatar">
+                                <span>By Ree</span>
+                                <span>·</span>
+                                <span>6 min read</span>
+                            </div>
+                            <div class="guide-arrow"><i class="ri-arrow-right-up-line"></i></div>
+                        </div>
+                        <div class="guide-number">02</div>
+                    </a>
+                    <a href="blog-post.html" class="guide-card">
+                        <div class="guide-category">Hustle</div>
+                        <div class="guide-body">
+                            <h3>5 High-Income Skills You Can Learn in 90 Days</h3>
+                            <p>The fastest path from zero to your first $5K/month online, validated by real results.</p>
+                        </div>
+                        <div class="guide-footer">
+                            <div class="guide-meta">
+                                <img src="ree.jpg" alt="Ree" class="guide-avatar">
+                                <span>By Ree</span>
+                                <span>·</span>
+                                <span>5 min read</span>
+                            </div>
+                            <div class="guide-arrow"><i class="ri-arrow-right-up-line"></i></div>
+                        </div>
+                        <div class="guide-number">03</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CALCULATORS ===== -->
+        <section class="calc-section" id="calculators">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">MTWR Calculators</div>
+                    <h2>Run the Numbers</h2>
+                    <p>Free interactive tools to map your wealth journey.</p>
+                </div>
+                <!-- Tab Controls -->
+                <div class="calc-tabs" id="calc-tabs">
+                    <button class="calc-tab-btn active" data-calc="compound-calc">
+                        <i class="ri-percent-line"></i> Compound Interest
+                    </button>
+                    <button class="calc-tab-btn" data-calc="goal-calc">
+                        <i class="ri-flag-line"></i> Wealth Goal
+                    </button>
+                    <button class="calc-tab-btn" data-calc="budget-calc">
+                        <i class="ri-pie-chart-line"></i> Budget Planner
+                    </button>
+                    <button class="calc-tab-btn" data-calc="hustle-calc">
+                        <i class="ri-arrow-up-circle-line"></i> Side Hustle
+                    </button>
+                </div>
+
+                <div class="calc-wrapper">
+                    <!-- Compound Interest Calculator -->
+                    <div class="calculator-card" id="compound-calc">
+                        <div class="calc-header">
+                            <div class="calc-icon"><i class="ri-percent-line"></i></div>
+                            <div>
+                                <h3>Compound Interest Calculator</h3>
+                                <p>See your money grow over time</p>
+                            </div>
+                        </div>
+                        <div class="calc-inputs">
+                            <div class="input-group">
+                                <label>Initial Investment ($)</label>
+                                <input type="number" id="ci-principal" value="1000" min="0">
+                                <input type="range" id="ci-principal-slider" value="1000" min="0" max="100000" step="1000" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Monthly Contribution ($)</label>
+                                <input type="number" id="ci-monthly" value="200" min="0">
+                                <input type="range" id="ci-monthly-slider" value="200" min="0" max="10000" step="100" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Annual Return (%)</label>
+                                <input type="number" id="ci-rate" value="12" min="0" max="100">
+                                <input type="range" id="ci-rate-slider" value="12" min="0" max="30" step="1" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Years</label>
+                                <input type="number" id="ci-years" value="10" min="1" max="50">
+                                <input type="range" id="ci-years-slider" value="10" min="1" max="50" step="1" class="calc-slider">
+                            </div>
+                        </div>
+                        <button class="btn-primary calc-btn" onclick="calcCompound()">Calculate <i class="ri-arrow-right-line"></i></button>
+                        <div class="calc-result" id="ci-result">
+                            <div class="result-label">Total Value</div>
+                            <div class="result-value" id="ci-value">$44,931</div>
+                            <div class="result-breakdown">
+                                <span>Principal: <strong id="ci-princ-out">$25,000</strong></span>
+                                <span>Interest Earned: <strong id="ci-int-out" style="color:var(--accent)">$19,931</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wealth Goal Calculator -->
+                    <div class="calculator-card" id="goal-calc" style="display: none;">
+                        <div class="calc-header">
+                            <div class="calc-icon"><i class="ri-flag-line"></i></div>
+                            <div>
+                                <h3>Wealth Goal Calculator</h3>
+                                <p>When will you hit your number?</p>
+                            </div>
+                        </div>
+                        <div class="calc-inputs">
+                            <div class="input-group">
+                                <label>Your Goal ($)</label>
+                                <input type="number" id="wg-goal" value="100000" min="0">
+                                <input type="range" id="wg-goal-slider" value="100000" min="5000" max="2000000" step="5000" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Current Savings ($)</label>
+                                <input type="number" id="wg-current" value="5000" min="0">
+                                <input type="range" id="wg-current-slider" value="5000" min="0" max="500000" step="1000" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Monthly Savings ($)</label>
+                                <input type="number" id="wg-monthly" value="500" min="0">
+                                <input type="range" id="wg-monthly-slider" value="500" min="0" max="20000" step="100" class="calc-slider">
+                            </div>
+                            <div class="input-group">
+                                <label>Expected Return (%)</label>
+                                <input type="number" id="wg-rate" value="10" min="0" max="100">
+                                <input type="range" id="wg-rate-slider" value="10" min="0" max="30" step="1" class="calc-slider">
+                            </div>
+                        </div>
+                        <button class="btn-primary calc-btn" onclick="calcGoal()">Calculate <i class="ri-arrow-right-line"></i></button>
+                        <div class="calc-result" id="wg-result">
+                            <div class="result-label">Time to Goal</div>
+                            <div class="result-value" id="wg-value">~8.5 Years</div>
+                            <div class="result-breakdown">
+                                <span>You'll reach <strong>$100,000</strong> with consistency.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Budget Planner -->
+                    <div class="calculator-card" id="budget-calc" style="display: none;">
+                        <div class="calc-header">
+                            <div class="calc-icon"><i class="ri-pie-chart-2-line"></i></div>
+                            <div>
+                                <h3>50/30/20 Budget Planner</h3>
+                                <p>Build a wealth-smart budget instantly</p>
+                            </div>
+                        </div>
+                        <div class="calc-inputs">
+                            <div class="input-group" style="grid-column: span 2;">
+                                <label>Monthly Net Income ($)</label>
+                                <input type="number" id="bp-income" value="5000" min="0">
+                                <input type="range" id="bp-income-slider" value="5000" min="500" max="50000" step="500" class="calc-slider">
+                            </div>
+                        </div>
+                        <button class="btn-primary calc-btn" onclick="calcBudget()">Calculate <i class="ri-arrow-right-line"></i></button>
+                        <div class="calc-result" id="bp-result">
+                            <div class="result-label">Monthly Allocation Breakdown</div>
+                            <div class="result-value" id="bp-value">$5,000</div>
+                            <div class="result-breakdown" style="flex-direction: column; gap: 0.75rem; text-align: left;">
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap: 1rem;">
+                                    <span style="white-space: nowrap;">Needs (50%): <strong id="bp-needs-out">$2,500</strong></span>
+                                    <div style="background:var(--border); height:6px; flex: 1; max-width:160px; border-radius:3px; overflow:hidden;"><div style="background:#ff6b35; height:100%; width:50%;"></div></div>
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap: 1rem;">
+                                    <span style="white-space: nowrap;">Wants (30%): <strong id="bp-wants-out">$1,500</strong></span>
+                                    <div style="background:var(--border); height:6px; flex: 1; max-width:160px; border-radius:3px; overflow:hidden;"><div style="background:#335cff; height:100%; width:30%;"></div></div>
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap: 1rem;">
+                                    <span style="white-space: nowrap;">Savings & Investments (20%): <strong id="bp-savings-out" style="color:var(--accent)">$1,000</strong></span>
+                                    <div style="background:var(--border); height:6px; flex: 1; max-width:160px; border-radius:3px; overflow:hidden;"><div style="background:var(--accent); height:100%; width:20%;"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Side Hustle Estimator -->
+                    <div class="calculator-card" id="hustle-calc" style="display: none;">
+                        <div class="calc-header">
+                            <div class="calc-icon"><i class="ri-arrow-up-circle-line"></i></div>
+                            <div>
+                                <h3>Side Hustle Estimator</h3>
+                                <p>Estimate your potential online earnings</p>
+                            </div>
+                        </div>
+                        <div class="calc-inputs">
+                            <div class="input-group">
+                                <label>Hustle Type</label>
+                                <select id="sh-type" class="premium-input" style="border-radius: var(--r-md); height: 44px; padding: 0 1rem; border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-family: var(--font-body); font-size: 0.95rem;">
+                                    <option value="copywriting">Copywriting ($40/hr)</option>
+                                    <option value="freelance-dev">Freelance Development ($60/hr)</option>
+                                    <option value="video-editing">Video Editing ($45/hr)</option>
+                                    <option value="ui-ux-design">UI/UX Design ($50/hr)</option>
+                                    <option value="consulting">Ad Consulting ($75/hr)</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label>Weekly Hours</label>
+                                <input type="number" id="sh-hours" value="15" min="1" max="40">
+                                <input type="range" id="sh-hours-slider" value="15" min="1" max="40" step="1" class="calc-slider">
+                            </div>
+                        </div>
+                        <button class="btn-primary calc-btn" onclick="calcHustle()">Estimate Income <i class="ri-arrow-right-line"></i></button>
+                        <div class="calc-result" id="sh-result">
+                            <div class="result-label">Estimated Monthly Earnings</div>
+                            <div class="result-value" id="sh-value">$2,400</div>
+                            <div class="result-breakdown">
+                                <span>Yearly Potential: <strong id="sh-yearly-out" style="color:var(--accent)">$28,800</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SUCCESS STORIES ===== -->
+        <section class="stories-section">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">Success Stories</div>
+                    <h2>Real People. Real Results.</h2>
+                    <p>What happens when you actually apply what MTWR teaches.</p>
+                </div>
+                <div class="stories-grid">
+                    <div class="story-card-new">
+                        <div class="story-quote"><i class="ri-double-quotes-l"></i></div>
+                        <p class="story-text">Ree's content literally changed how I think about money. I went from living paycheck to paycheck to building my first $10K emergency fund in 8 months.</p>
+                        <div class="story-author">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #d4ff33, #a0c220);">A</div>
+                            <div>
+                                <strong>Amara O.</strong>
+                                <span>Lagos, Nigeria</span>
+                            </div>
+                            <div class="story-result">+$10K saved</div>
+                        </div>
+                    </div>
+                    <div class="story-card-new">
+                        <div class="story-quote"><i class="ri-double-quotes-l"></i></div>
+                        <p class="story-text">I started freelancing after watching the MTWR hustle guide series. 6 months later, I'm making more online than I did at my corporate job.</p>
+                        <div class="story-author">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #335cff, #0028a0);">K</div>
+                            <div>
+                                <strong>Kevin D.</strong>
+                                <span>London, UK</span>
+                            </div>
+                            <div class="story-result">$5K/mo online</div>
+                        </div>
+                    </div>
+                    <div class="story-card-new">
+                        <div class="story-quote"><i class="ri-double-quotes-l"></i></div>
+                        <p class="story-text">The crypto portfolio guide helped me avoid the mistakes that hurt so many people in 2022. I'm still up 88% on my long-term holds.</p>
+                        <div class="story-author">
+                            <div class="story-avatar" style="background: linear-gradient(135deg, #ff6b35, #c0390c);">T</div>
+                            <div>
+                                <strong>Tochi M.</strong>
+                                <span>Abuja, Nigeria</span>
+                            </div>
+                            <div class="story-result">+88% crypto ROI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== RESOURCE LIBRARY ===== -->
+        <section class="library-section">
+            <div class="container">
+                <div class="section-header split">
+                    <div>
+                        <div class="section-tag">Resource Library</div>
+                        <h2>The MTWR Vault</h2>
+                    </div>
+                    <a href="blog.html" class="btn-ghost">Browse All <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="library-grid">
+                    <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(255,0,0,0.1); color:#ff4444;">
+                            <i class="ri-youtube-fill"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Cinematic Content</div>
+                            <h4>Watch on YouTube</h4>
+                            <p>High-production documentaries on wealth creation and digital business.</p>
+                        </div>
+                        <i class="ri-external-link-line lib-arrow"></i>
+                    </a>
+                    <a href="blog.html" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(212,255,51,0.1); color:var(--accent);">
+                            <i class="ri-mail-send-line"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Newsletter</div>
+                            <h4>The Alpha Letter</h4>
+                            <p>Weekly intelligence on markets, crypto, and side-hustles — free forever.</p>
+                        </div>
+                        <i class="ri-arrow-right-line lib-arrow"></i>
+                    </a>
+                    <a href="blog.html" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(51,92,255,0.1); color:#335cff;">
+                            <i class="ri-article-line"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Blog</div>
+                            <h4>MTWR Insights</h4>
+                            <p>In-depth breakdowns, case studies, and financial playbooks.</p>
+                        </div>
+                        <i class="ri-arrow-right-line lib-arrow"></i>
+                    </a>
+                    <a href="#" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(168,85,247,0.1); color:#a855f7;">
+                            <i class="ri-group-fill"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Community</div>
+                            <h4>The Syndicate</h4>
+                            <p>Private community of 50,000+ wealth builders sharing alpha and opportunities.</p>
+                        </div>
+                        <i class="ri-arrow-right-line lib-arrow"></i>
+                    </a>
+                    <a href="#" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(249,115,22,0.1); color:#f97316;">
+                            <i class="ri-graduation-cap-line"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Academy</div>
+                            <h4>MTWR Academy</h4>
+                            <p>Masterclass-level courses on digital skills, investing, and agency building.</p>
+                        </div>
+                        <i class="ri-arrow-right-line lib-arrow"></i>
+                    </a>
+                    <a href="#" class="library-item">
+                        <div class="lib-icon-wrap" style="background: rgba(16,185,129,0.1); color:#10b981;">
+                            <i class="ri-file-chart-line"></i>
+                        </div>
+                        <div class="lib-content">
+                            <div class="lib-type">Templates</div>
+                            <h4>Free Spreadsheets</h4>
+                            <p>Budget planners, investment trackers, and business model templates.</p>
+                        </div>
+                        <i class="ri-arrow-right-line lib-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWSLETTER ===== -->
+        <section class="newsletter-section" id="newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <div class="newsletter-bg-glow"></div>
+                    <div class="newsletter-content">
+                        <div class="nl-badge"><i class="ri-mail-send-fill"></i> The Alpha Letter</div>
+                        <h2>Get Weekly Wealth Intelligence.</h2>
+                        <p>Join 50,000+ readers who get Ree's best breakdowns on markets, crypto, hustle, and financial freedom — every single week.</p>
+                        <form class="nl-form" onsubmit="handleSubscribe(event)">
+                            <input type="email" id="nl-email" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn-primary">Subscribe Free <i class="ri-arrow-right-line"></i></button>
+                        </form>
+                        <div class="nl-trust">
+                            <span><i class="ri-shield-check-fill"></i> No spam. Unsubscribe anytime.</span>
+                            <span><i class="ri-group-fill"></i> 50,000+ subscribers</span>
+                        </div>
+                    </div>
+                    <div class="newsletter-visual">
+                        <div class="nl-card">
+                            <div class="nl-card-header">
+                                <div class="nl-avatar">R</div>
+                                <div>
+                                    <strong>The Alpha Letter #47</strong>
+                                    <span>From: Ree · This Week's Alpha</span>
+                                </div>
+                            </div>
+                            <p class="nl-preview">🔑 3 income streams quietly making people rich in 2026... The one skill that pays $150/hr on Upwork right now... Why smart money is quietly accumulating THIS asset...</p>
+                            <div class="nl-tags">
+                                <span>💰 Income</span>
+                                <span>₿ Crypto</span>
+                                <span>📈 Investing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REE'S CORNER ===== -->
+        <section class="founder-section">
+            <div class="container">
+                <div class="founder-layout">
+                    <div class="founder-image-side">
+                        <div class="founder-img-frame">
+                            <img src="ree.jpg" alt="Ree - Founder of Money Time With Ree" loading="lazy">
+                        </div>
+                        <div class="founder-stat-float">
+                            <i class="ri-vip-crown-fill"></i>
+                            <div>
+                                <strong>Founder</strong>
+                                <span>Since 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder-content">
+                        <div class="section-tag">Ree's Corner</div>
+                        <h2>Built by Someone Who's Been in the Trenches.</h2>
+                        <p class="founder-bio">Money Time With Ree isn't a corporate blog. It's a platform built by someone who figured out the modern money game through trial, failure, and eventually — serious success.</p>
+                        <p class="founder-bio">I built MTWR because I wanted a space where ambitious people get real information — not watered-down advice from people who've never done the work. Everything here is tested, real, and designed to actually move your financial needle.</p>
+                        <div class="founder-values">
+                            <div class="value-item">
+                                <i class="ri-focus-2-line"></i>
+                                <span>No fluff, no filler — just strategies that work</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="ri-global-line"></i>
+                                <span>Built for global entrepreneurs, not just Western audiences</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="ri-heart-line"></i>
+                                <span>Free because access to financial knowledge should be universal</span>
+                            </div>
+                        </div>
+                        <div class="founder-ctas">
+                            <a href="about.html" class="btn-primary">Read My Story <i class="ri-arrow-right-line"></i></a>
+                            <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" class="btn-ghost">Watch on YouTube <i class="ri-external-link-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">MONEY TIME <span>WITH REE</span></div>
+                    <p>Decoding the modern game of wealth — for ambitious people everywhere.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Twitter/X"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4>Ecosystem</h4>
+                        <a href="https://youtu.be/Z5ckIqM-vX0?si=yksH51ux9efbfxha" target="_blank" rel="noopener noreferrer">YouTube</a>
+                        <a href="blog.html">The Alpha Letter</a>
+                        <a href="#">Academy</a>
+                        <a href="#">The Syndicate</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Tools</h4>
+                        <a href="#calculators">Calculators</a>
+                        <a href="#tools">Investment Tracker</a>
+                        <a href="#tools">Budget Planner</a>
+                        <a href="#">Templates</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="about.html">About Ree</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Disclaimer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Money Time With Ree. All rights reserved.</p>
+                <p class="disclaimer">Content is for educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Transition Overlay -->
+    <div class="transition-overlay" id="transition-overlay">
+        <div class="transition-swipe"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
